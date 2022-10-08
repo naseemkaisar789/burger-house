@@ -1,0 +1,454 @@
+/*header start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #3d2514;
+}
+header{
+background-image: url(../images/backgroung.jpg);
+padding: 30px 0;
+
+}
+.wrapper{
+/*border: 5px solid green;*/
+width: 90%;
+margin: 0 auto;
+overflow: hidden;
+}
+.logo{
+padding: 25px 0;
+float: left;
+width: 20%;
+/*border: 2px solid white;*/
+}
+.logo img{
+width: 100%;
+}
+.nav-bar{
+    padding: 10px 0;
+	float: right;
+	width: 60%;
+	/*border: 2px solid blue;*/
+}
+.hotline{
+	/*width: 15%;*/
+	overflow: hidden;
+}
+.hotline a{
+	margin: 10px 0;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3d2514;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.menu ul li{
+    list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #3d2514;  
+	padding: 5px 20px;
+	display: inline-block;
+    color: #3d2514;
+    letter-spacing: 2px;
+    transition: .5s;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+
+}
+.menu ul li a:hover {
+    border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*burger week start*/
+.b_week{
+	padding-top: 125px;
+    width: 45%;
+    float: left;
+}
+.b_week p{
+	margin: 0;
+	width: 70%;
+    border: 2px dashed;
+    text-align: center;
+}
+.b_week h1{
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0px #fee8bb;
+}
+.b_week h2{
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px #fee8bb;
+    line-height: .5;
+
+}
+.b_img{
+	width: 55%;
+	float: right;
+}
+.b_img img{
+	width: 100%;
+}
+
+/*burger week end*/
+
+/*ads start*/
+.advertise{}
+.left_side{
+	float: left;
+	padding-top: 40px;
+    padding-left: 12px;
+}
+.l_img{
+	background-image: url(../images/ads1.jpg);
+    height: 300px;
+}
+.right_side{
+	float: right;
+	padding-top: 40px;
+    padding-right: 12px;
+}
+.ads{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 480px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.r_img1{
+	background-image: url(../images/ads2.jpg);
+    margin-bottom: 40px;
+    height: 130px;
+
+}
+.r_img2{
+	background-image: url(../images/ads3.jpg);
+	height: 130px;
+
+}
+.try{
+   color: white;
+   padding-top: 40px;
+   line-height: 0;
+}
+.detail{
+   color: white;
+   margin: 0;
+   line-height: .3;
+}
+.mt{
+	line-height: 1.6;
+}
+/*ads end*/
+
+/*taste section start*/
+.t_container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.tasty{
+    background-color: #ffc045;
+    width: 20%;
+    margin: 0 auto;
+
+}
+.tasty p{
+    padding: 10px;
+    font-size: 21px;
+    margin: 0;
+}
+.t_title{
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 40px;
+   font-weight: 400;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 20px;
+}
+.t_text{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+/*   text-transform: lowercase;*/
+   text-align: center;
+}
+/*teste section end*/
+
+/*order start*/
+.order{
+	margin-bottom: 60px;
+}
+.order_now {
+	width: 32%;
+	text-align: center;
+	float: left;
+}
+
+.burgers {
+}
+.burgers img{
+	width: 100%;
+}
+.burg_content{
+
+}
+.ord_h2{
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+.order_btn {
+}
+.order_btn button{
+    border: none;
+    background-color: #bf2222;
+    padding: 15px 26px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.order_btn button:hover{
+	color: #3d2514;
+	background-color: #ffc657;
+}
+/*order end*/
+
+/*event start*/
+.slide{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 15px;
+
+}
+.left_event{
+	width: 41%;
+	float: left;
+	padding: 35px 25px;
+}
+.disc{
+    margin: 0;
+	font-size: 25px;
+	color: #3d3d3d;
+
+}
+.eve{
+	font-size: 32px;
+    text-align: left;
+    margin: 0;
+    line-height: 1;
+}
+.lor{
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+}
+.right_event{
+	width: 50%;
+	float: right;
+	padding: 20px;
+}
+.right_event img{
+	width: 100%;
+}
+
+/*event end*/
+
+/*form start*/
+.reservation{
+	    position: relative;
+    padding: 60px 0 135px;
+}
+.box{
+
+}
+
+.tb_title{
+	    text-align: center;
+}
+.reserve{
+	font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.l_space{
+	margin-top: 0;
+	margin-bottom: 45px;
+    letter-spacing: 3px;
+}
+.form_tb{
+	width: 60%;
+    margin: 0 auto;
+
+}
+.form_tb input, button{
+
+	margin: 11px;
+    padding: 16px 10px;
+    width: 42%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #bebebe;
+}
+
+.find_tb{
+    width: 46%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: #bf2222;
+    border: none;
+}
+.position_img{
+	
+}
+.bun{
+	position: absolute;
+	top: 4%;
+	left: 0;
+width: 18%;
+
+}
+.bun img{
+	width: 100%;
+	
+}
+.bottle{
+position: absolute;
+top: 40%;
+left: 10%;
+width: 17%;
+}
+.bottle img{
+	width: 100%;
+}
+
+.platter {
+position: absolute;
+bottom: 0;
+right: 0;
+width: 16%;
+}
+.platter img{
+	width: 100%;
+}
+/*form end*/
+/*footer start*/
+.f_wrap{
+	background-image: url(../images/footer_background.jpg);
+	min-height: 400px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.f_body {
+	overflow: hidden;
+	
+}
+
+.f_left {
+	float: left;
+	width: 45%;
+	padding: 50px 30px;
+}
+
+.logo-w {
+	width: 50%;
+}
+.color-w{
+	color: white;
+	text-align: left;
+}
+.logo-w img{
+	width: 100%;
+}
+
+.f_right {
+	float: right;
+	width: 45%;
+}
+.location{
+
+}
+.location ul{
+	position: absolute;
+    bottom: 50%;
+    top: 25%;
+}
+.location li{
+	list-style: none;
+    margin: 5px;
+    display: inline-block;
+}
+.location li img{
+    margin: 0 30px;
+    float: left;
+}
+.location li a{
+	text-decoration: none;
+    color: white;
+
+}
+/*footer bottom */
+.footer-bottom{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.f-position{
+	position: relative;   
+    margin: 0 30px;
+}
+.f-position ul{
+	list-style: none;
+    margin: 0;
+}
+.f-position ul li{}
+.f-position ul li p{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+.links ul{
+	list-style: none;
+    overflow: hidden;
+}
+.links ul li{}
+.links ul li a{
+	float: right;
+    margin: 10px;
+}
+/*footer end*/
